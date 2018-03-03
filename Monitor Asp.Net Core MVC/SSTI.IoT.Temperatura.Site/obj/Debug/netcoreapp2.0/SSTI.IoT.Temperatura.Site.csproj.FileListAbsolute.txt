@@ -1,0 +1,11 @@
+C:\Users\FBarros\Documents\Visual Studio 2017\Projects\SSTI.IoT.Temperatura\SSTI.IoT.Temperatura.Site\bin\Debug\netcoreapp2.0\SSTI.IoT.Temperatura.Site.deps.json
+C:\Users\FBarros\Documents\Visual Studio 2017\Projects\SSTI.IoT.Temperatura\SSTI.IoT.Temperatura.Site\bin\Debug\netcoreapp2.0\SSTI.IoT.Temperatura.Site.runtimeconfig.json
+C:\Users\FBarros\Documents\Visual Studio 2017\Projects\SSTI.IoT.Temperatura\SSTI.IoT.Temperatura.Site\bin\Debug\netcoreapp2.0\SSTI.IoT.Temperatura.Site.runtimeconfig.dev.json
+C:\Users\FBarros\Documents\Visual Studio 2017\Projects\SSTI.IoT.Temperatura\SSTI.IoT.Temperatura.Site\bin\Debug\netcoreapp2.0\SSTI.IoT.Temperatura.Site.dll
+C:\Users\FBarros\Documents\Visual Studio 2017\Projects\SSTI.IoT.Temperatura\SSTI.IoT.Temperatura.Site\obj\Debug\netcoreapp2.0\SSTI.IoT.Temperatura.Site.csprojResolveAssemblyReference.cache
+C:\Users\FBarros\Documents\Visual Studio 2017\Projects\SSTI.IoT.Temperatura\SSTI.IoT.Temperatura.Site\obj\Debug\netcoreapp2.0\SSTI.IoT.Temperatura.Site.csproj.CoreCompileInputs.cache
+C:\Users\FBarros\Documents\Visual Studio 2017\Projects\SSTI.IoT.Temperatura\SSTI.IoT.Temperatura.Site\obj\Debug\netcoreapp2.0\SSTI.IoT.Temperatura.Site.AssemblyInfoInputs.cache
+C:\Users\FBarros\Documents\Visual Studio 2017\Projects\SSTI.IoT.Temperatura\SSTI.IoT.Temperatura.Site\obj\Debug\netcoreapp2.0\SSTI.IoT.Temperatura.Site.AssemblyInfo.cs
+C:\Users\FBarros\Documents\Visual Studio 2017\Projects\SSTI.IoT.Temperatura\SSTI.IoT.Temperatura.Site\bin\Debug\netcoreapp2.0\SSTI.IoT.Temperatura.Site.pdb
+C:\Users\FBarros\Documents\Visual Studio 2017\Projects\SSTI.IoT.Temperatura\SSTI.IoT.Temperatura.Site\obj\Debug\netcoreapp2.0\SSTI.IoT.Temperatura.Site.dll
+C:\Users\FBarros\Documents\Visual Studio 2017\Projects\SSTI.IoT.Temperatura\SSTI.IoT.Temperatura.Site\obj\Debug\netcoreapp2.0\SSTI.IoT.Temperatura.Site.pdb

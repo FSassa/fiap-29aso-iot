@@ -1,0 +1,79 @@
+﻿@model Temperatura.TemperaturaViewModel;
+@{    
+    ViewData["Title"] = "Temperaturas";
+    var progressClass = "";
+    var progressMessage = "";
+}
+
+<h2>Monitor de Temperatura</h2>
+
+@if (null == @Model.Ultima)
+{
+    <div class="alert alert-warning" role="alert">
+        Nenhuma temperatura para exibir!
+    </div>
+}
+else
+{
+    if (Model.Ultima.Temperatura < 21)
+    {
+        progressClass = "success";
+        progressMessage = "A temperatura está normal!";
+    }
+    else if (Model.Ultima.Temperatura > 20 && Model.Ultima.Temperatura < 30)
+    {
+        progressClass = "warning";
+        progressMessage = "A temperatura está acima do normal, mas ainda está aceitável.";
+    }
+    else
+    {
+        progressClass = "danger";
+        progressMessage = "Temperatura acima do permitido! Acionar o dispositivo de resfriamento.";
+    }
+    <div>
+        Temperatura atual:
+    </div>
+    <div class="progress">
+        <div class="progress-bar bg-@progressClass" role="progressbar" style="width: @Math.Truncate(Model.Ultima.Temperatura)%" aria-valuenow="@Math.Truncate(Model.Ultima.Temperatura)" aria-valuemin="0" aria-valuemax="60">@Model.Ultima.Temperatura º</div>
+    </div>
+        <div>&nbsp;</div>
+        <div class="alert alert-@progressClass" role="alert">
+            @progressMessage
+        </div>
+        <div>&nbsp;</div>
+        @if (0 < Model.Lista.Count)
+        {
+            var i = 0;
+            <div>
+                <table class="table">
+                    <thead class="thead-inverse">
+                        <tr>
+                            <th>Seq</th>
+                            <th>Data/Hora</th>
+                            <th>Temperatura</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var temperatura in Model.Lista)
+                        {
+                            i++;
+                            <tr>
+                                <td>@i</td>
+                                <td>@temperatura.DataHora.ToString("dd/MM/yyyy hh:mm:ss")</td>
+                                <td>@temperatura.Temperatura º</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+}
+<script type="text/javascript">
+    var refreshInterval = setTimeout(function () { refreshWindow() }, 7000);
+
+    function refreshWindow() {
+        clearInterval(refreshInterval);
+        console.log("refresh");
+        location.reload(true)
+    }s
+</script>
